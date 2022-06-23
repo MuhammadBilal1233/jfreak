@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IPGeoLocation</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="ipgeo.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <img src="images/ipgeolocation.png" alt="">
+        <div class="navigation">
+            <div class="topnav" id="myTopnav">
+                <button style="width: 0px ;color: rgb(30, 48, 129); background-color: rgb(30, 48, 129); border: none;"></button>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Products
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="ipgeolocation.html">IpGeoLocation</a>
+                        <a href="currencyfreaks.html">CurrencyFreaks</a>
+                        <a href="#">WhoIsfreaks</a>
+                    </div>
+                </div>
+                <a href="#expert">Team</a>
+                <a href="#footer">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section id="ipgeo">
+        <h1>
+            IPGeoLocation
+        </h1>
+        <h3>
+            Free IP API provides country, city, state, province, local currency, latitude and longitude, company
+            detail, ISP lookup, language, zip code, country calling code, time zone, current time, sunset and
+            sunrise time, moonset and moonrise time from any IPv4 and IPv6 address in REST, JSON and XML format over
+            HTTPS.
+            Our servers are Globally Available in countries including United States, Germany, France, United
+            Kingdom, Australia, Singapore and India. We route requests to the nearest and fastest node using
+            Cloudflare's Global Network.
+        </h3>
+        <div class="btn">
+            <h4>Enter your IP address here</h4>
+            <div class="ipgeobtn">
+                <input type="text" id="ipgeodata" placeholder="IP Address">
+                <a href="#" class="yellow" onclick=IPGEO1() >Search</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ipgeodata">
+        <div id="firstheading">
+             <h3>You have not entered any IP address <br> 
+                So We fetched your IP address and your Geo location is: </h3>
+        </div>
+        <div id="secondheading">
+            <h3>Geo location of Your entered IP address is</h3>
+        </div>
+        <div id="tabledata">
+            <table >
+                <tr>
+                    <td>IP</td>
+                    <td id="1"></td>
+                </tr>
+                <tr>
+                    <td>Continent_Code</td>
+                    <td id="2"></td>
+                </tr><tr>
+                    <td>Continent_Name</td>
+                    <td id="3"></td>
+                </tr><tr>
+                    <td>Country_Code</td>
+                    <td id="4"></td>
+                </tr><tr>
+                    <td>Country_Name</td>
+                    <td id="5"></td>
+                </tr><tr>
+                    <td>Country Capital</td>
+                    <td id="22"></td>
+                </tr><tr>
+                    <td>District</td>
+                    <td id="6"></td>
+                </tr><tr>
+                    <td>Latitude</td>
+                    <td id="7"></td>
+                </tr><tr>
+                    <td>Longitude</td>
+                    <td id="8"></td>
+                </tr><tr>
+                    <td>Is_EU</td>
+                    <td id="9"></td>
+                </tr><tr>
+                    <td>Calling Code</td>
+                    <td id="10"></td>
+                </tr><tr>
+                    <td>Country_tld</td>
+                    <td id="11"></td>
+                </tr><tr>
+                    <td>Languages</td>
+                    <td id="12"></td>
+                </tr><tr>
+                    <td>Geoname_id</td>
+                    <td id="13"></td>
+                </tr><tr>
+                    <td>ISP</td>
+                    <td id="14"></td>
+                </tr><tr>
+                    <td>Organization</td>
+                    <td id="15"></td>
+                </tr><tr>
+                    <td>Currency Code</td>
+                    <td id="16"></td>
+                </tr><tr>
+                    <td>Currency Name</td>
+                    <td id="17"></td>
+                </tr><tr>
+                    <td>Currency Symbol</td>
+                    <td id="18"></td>
+                </tr><tr>
+                    <td>Time_zone Name</td>
+                    <td id="19"></td>
+                </tr><tr>
+                    <td>Time_zone offset</td>
+                    <td id="20"></td>
+                </tr><tr>
+                    <td>Current Time</td>
+                    <td id="21"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <section id="footer">
+        <div class="footer-col">
+            <h3>
+                Top Products
+            </h3>
+            <li>IpGeoLocation</li>
+            <li>CurrencyFreaks</li>
+            <li>WhoIsfreaks</li>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Quick Links
+            </h3>
+            <li>Linkdin</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Resourses
+            </h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Copyright
+            </h3>
+            <li>Copyright &copy;2022 - All Rights Reserved</li>
+            <li>JFreaks Software Solutions</li>
+            <li>Contact: +92-309-657108</li>
+        </div>
+    </section>
+
+</body>
+
+</html>

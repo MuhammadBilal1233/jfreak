@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CurrencyFreaks</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="currency.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <img src="images/currency.png" alt="">
+        <div class="navigation">
+            <div class="topnav" id="myTopnav">
+                <button style="width: 0px ;color: rgb(30, 48, 129); background-color: rgb(30, 48, 129); border: none;"></button>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Products
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="ipgeolocation.html">IpGeoLocation</a>
+                        <a href="currencyfreaks.html">CurrencyFreaks</a>
+                        <a href="#">WhoIsfreaks</a>
+                    </div>
+                </div>
+                <a href="#expert">Team</a>
+                <a href="#footer">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <section id="ipgeo">
+        <h1>
+            CurrencyFreaks
+        </h1>
+        <h3>
+            CurrencyFreaks provides currency conversion, current and historical forex exchange rate and currency
+            fluctuation
+            data through REST API in json and xml formats compatible. We provide real time exchange rate data
+            for 350 world currencies, metals and crypto currencies updated in every minute.
+            We take security seriously that is why every request to our server is SSL encrypted even in our free
+            plan.
+        </h3>
+        <div class="btn">
+            <h4>Enter the Currency Units to Convert</h4>
+            <h4>From</h4>
+            <div class="ipgeobtn">
+                <input type="text" id="currency1" placeholder="Currency Code">
+            </div>
+            <h4>To</h4>
+            <div class="ipgeobtn">
+                <input type="text" id="currency2" placeholder="Currency Code">
+            </div>
+            <div class="ipgeobtn">
+                <a href="#buttons" class="yellow" onclick=Currency()>Convert</a>
+            </div>
+            <div>
+                <h4 id="currency"></h4> <br>
+            </div>
+            <div id="graphplotting">
+                <!-- <h4>Select the dates to plot graph of currency rates</h4> <br>
+                <h4>From</h4>
+                <div class="ipgeobtn">
+                    <input type="text" id="currency3" placeholder="yyyy-mm-dd">
+                </div>
+                <h4>To</h4>
+                <div class="ipgeobtn">
+                    <input type="text" id="currency4" placeholder="yyyy-mm-dd">
+                </div> <br>
+                <div class="ipgeobtn">
+                    <a href="#" class="yellow" onclick=Graph()>Plot Graph</a>
+                </div> -->
+                <h4>Click here to plot Currency rates Graph</h4> <br>
+                <div class="graphbutton" id="buttons">
+                    <div class="ipgeobtn">
+                        <a href="#graph1" class="yellow" onclick=week()>1 Week</a>
+                    </div>
+                    <div class="ipgeobtn">
+                        <a href="#graph1" class="yellow" onclick=month()>1 Month</a>
+                    </div>
+                    <div class="ipgeobtn">
+                        <a href="#graph1" class="yellow" onclick=year()>1 Year</a>
+                    </div>
+                    <div class="ipgeobtn">
+                        <a href="#graph1" class="yellow" onclick=year5()>5 Year</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 id="currency5"></h4> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="graph">
+        <div class="graph-s">
+            <div class="jsgraph">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <section id="footer">
+        <div class="footer-col">
+            <h3>
+                Top Products
+            </h3>
+            <li>IpGeoLocation</li>
+            <li>CurrencyFreaks</li>
+            <li>WhoIsfreaks</li>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Quick Links
+            </h3>
+            <li>Linkdin</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Resourses
+            </h3>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, We only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">Subscribe</a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Copyright
+            </h3>
+            <li>Copyright &copy;2022 - All Rights Reserved</li>
+            <li>JFreaks Software Solutions</li>
+            <li>Contact: +92-309-657108</li>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+continent_code,continent_name,country_code_iso2,country_code_iso3,country_name,country_capital,currency_code,currency_name,currency_symbol,calling_code,tld,languages
+EU,Europe,AD,AND,Andorra,Andorra la Vella,EUR,Euro,€,+376,.ad,ca
+AS,Asia,AE,ARE,United Arab Emirates,Abu Dhabi,AED,UAE Dirham,د.إ,+971,.ae,"ar-AE,fa,en,hi,ur"
+AS,Asia,AF,AFG,Afghanistan,Kabul,AFN,Afghani,؋,+93,.af,"fa-AF,ps,uz-AF,tk"
+NA,North America,AG,ATG,Antigua and Barbuda,St. John's,XCD,East Caribbean Dollar,$,+1,.ag,en-AG
+NA,North America,AI,AIA,Anguilla,The Valley,XCD,East Caribbean Dollar,$,+1,.ai,en-AI
+EU,Europe,AL,ALB,Albania,Tirana,ALL,Lek,Lek,+355,.al,"sq,el"
+AS,Asia,AM,ARM,Armenia,Yerevan,AMD,Armenian Dram,֏,+374,.am,hy
+AF,Africa,AO,AGO,Angola,Luanda,AOA,Angolan Kwanza,Kz,+244,.ao,pt-AO
+AN,Antarctica,AQ,ATA,Antarctica,,,,,,.aq,
+SA,South America,AR,ARG,Argentina,Buenos Aires,ARS,Argentine Peso,$,+54,.ar,"es-AR,en,it,de,fr,gn"
+OC,Oceania,AS,ASM,American Samoa,Pago Pago,USD,US Dollar,$,+1,.as,"en-AS,sm,to"
+EU,Europe,AT,AUT,Austria,Vienna,EUR,Euro,€,+43,.at,"de-AT,hr,hu,sl"
+OC,Oceania,AU,AUS,Australia,Canberra,AUD,Australian Dollar,A$,+61,.au,en-AU
+NA,North America,AW,ABW,Aruba,Oranjestad,AWG,Aruban Florin,ƒ,+297,.aw,"nl-AW,es,en"
+EU,Europe,AX,ALA,Aland Islands,Mariehamn,EUR,Euro,€,+358,.ax,sv-AX
+AS,Asia,AZ,AZE,Azerbaijan,Baku,AZN,Azerbaijan Manat,ман,+994,.az,"az,ru,hy"
+EU,Europe,BA,BIH,Bosnia and Herzegovina,Sarajevo,BAM,Bosnia and Herzegovina Convertible Mark,KM,+387,.ba,"bs,hr-BA,sr-BA"
+NA,North America,BB,BRB,Barbados,Bridgetown,BBD,Barbados Dollar,Bds$,+1,.bb,en-BB
+AS,Asia,BD,BGD,Bangladesh,Dhaka,BDT,Bangladeshi Taka,৳,+880,.bd,"bn-BD,en"
+EU,Europe,BE,BEL,Belgium,Brussels,EUR,Euro,€,+32,.be,"nl-BE,fr-BE,de-BE"
+AF,Africa,BF,BFA,Burkina Faso,Ouagadougou,XOF,CFA Franc BCEAO,CFA,+226,.bf,fr-BF
+EU,Europe,BG,BGR,Bulgaria,Sofia,BGN,Bulgarian Lev,лв,+359,.bg,"bg,tr-BG,rom"
+AS,Asia,BH,BHR,Bahrain,Manama,BHD,Bahraini Dinar,BD,+973,.bh,"ar-BH,en,fa,ur"
+AF,Africa,BI,BDI,Burundi,Gitega,BIF,Burundian Franc,FBu,+257,.bi,"fr-BI,rn"
+AF,Africa,BJ,BEN,Benin,Porto-Novo,XOF,CFA Franc BCEAO,CFA,+229,.bj,fr-BJ
+NA,North America,BL,BLM,Saint Barthelemy,Gustavia,EUR,Euro,€,+590,.gp,fr
+NA,North America,BM,BMU,Bermuda,Hamilton,BMD,Bermudian Dollar,$,+1,.bm,"en-BM,pt"
+AS,Asia,BN,BRN,Brunei,Bandar Seri Begawan,BND,Brunei Dollar,B$,+673,.bn,"ms-BN,en-BN"
+SA,South America,BO,BOL,Bolivia,Sucre,BOB,Bolivian Boliviano,Bs.,+591,.bo,"es-BO,qu,ay"
+NA,North America,BQ,BES,"Bonaire, Saint Eustatius and Saba",Kralendijk,USD,US Dollar,$,+599,.bq,"nl,pap,en"
+SA,South America,BR,BRA,Brazil,Brasilia,BRL,Brazilian Real,R$,+55,.br,"pt-BR,es,en,fr"
+NA,North America,BS,BHS,Bahamas,Nassau,BSD,Bahamian Dollar,B$,+1,.bs,en-BS
+AS,Asia,BT,BTN,Bhutan,Thimphu,BTN,Bhutanese Ngultrum,Nu.,+975,.bt,dz
+AN,Antarctica,BV,BVT,Bouvet Island,,NOK,Norwegian Krone,kr,,.bv,
+AF,Africa,BW,BWA,Botswana,Gaborone,BWP,Botswana Pula,P,+267,.bw,"en-BW,tn-BW"
+EU,Europe,BY,BLR,Belarus,Minsk,BYR,Belarusian Ruble,p.,+375,.by,"be,ru"
+NA,North America,BZ,BLZ,Belize,Belmopan,BZD,Belize Dollar,BZ$,+501,.bz,"en-BZ,es"
+NA,North America,CA,CAN,Canada,Ottawa,CAD,Canadian Dollar,C$,+1,.ca,"en-CA,fr-CA,iu"
+AS,Asia,CC,CCK,Cocos Islands,West Island,AUD,Australian Dollar,A$,+61,.cc,"ms-CC,en"
+AF,Africa,CD,COD,Democratic Republic of the Congo,Kinshasa,CDF,Congolese Franc,FC,+243,.cd,"fr-CD,ln,kg"
+AF,Africa,CF,CAF,Central African Republic,Bangui,XAF,Central African CFA franc,FCFA,+236,.cf,"fr-CF,sg,ln,kg"
+AF,Africa,CG,COG,Republic of the Congo,Brazzaville,XAF,Central African CFA franc,FCFA,+242,.cg,"fr-CG,kg,ln-CG"
+EU,Europe,CH,CHE,Switzerland,Bern,CHF,Swiss Franc,CHF,+41,.ch,"de-CH,fr-CH,it-CH,rm"
+AF,Africa,CI,CIV,Cote d'Ivoire (Ivory Coast),Yamoussoukro,XOF,CFA Franc BCEAO,CFA,+225,.ci,fr-CI
+OC,Oceania,CK,COK,Cook Islands,Avarua,NZD,New Zealand Dollar,$,+682,.ck,"en-CK,mi"
+SA,South America,CL,CHL,Chile,Santiago,CLP,Chilean Peso,$,+56,.cl,es-CL
+AF,Africa,CM,CMR,Cameroon,Yaounde,XAF,Central African CFA franc,FCFA,+237,.cm,"en-CM,fr-CM"
+AS,Asia,CN,CHN,China,Beijing,CNY,Yuan Renminbi,¥,+86,.cn,"zh-CN,yue,wuu,dta,ug,za"
+SA,South America,CO,COL,Colombia,Bogota,COP,Colombian Peso,$,+57,.co,es-CO
+NA,North America,CR,CRI,Costa Rica,San Jose,CRC,Costa Rican Colon,₡,+506,.cr,"es-CR,en"
+NA,North America,CU,CUB,Cuba,Havana,CUP,Cuban Peso,₱,+53,.cu,es-CU
+AF,Africa,CV,CPV,Cape Verde,Praia,CVE,Cabo Verde Escudo,$,+238,.cv,pt-CV
+NA,North America,CW,CUW,Curacao,Willemstad,ANG,Netherlands Antillean Guilder,ƒ,+599,.cw,"nl,pap"
+AS,Asia,CX,CXR,Christmas Island,Flying Fish Cove,AUD,Australian Dollar,A$,+61,.cx,"en,zh,ms-CC"
+EU,Europe,CY,CYP,Cyprus,Nicosia,EUR,Euro,€,+357,.cy,"el-CY,tr-CY,en"
+EU,Europe,CZ,CZE,Czech Republic,Prague,CZK,Czech Koruna,Kč,+420,.cz,"cs,sk"
+EU,Europe,DE,DEU,Germany,Berlin,EUR,Euro,€,+49,.de,de
+AF,Africa,DJ,DJI,Djibouti,Djibouti,DJF,Djibouti Franc,Fdj,+253,.dj,"fr-DJ,ar,so-DJ,aa"
+EU,Europe,DK,DNK,Denmark,Copenhagen,DKK,Danish Krone,Kr.,+45,.dk,"da-DK,en,fo,de-DK"
+NA,North America,DM,DMA,Dominica,Roseau,XCD,East Caribbean Dollar,$,+1,.dm,en-DM
+NA,North America,DO,DOM,Dominican Republic,Santo Domingo,DOP,Dominican Peso,RD$,+1,.do,es-DO
+AF,Africa,DZ,DZA,Algeria,Algiers,DZD,Algerian Dinar,دج,+213,.dz,ar-DZ
+SA,South America,EC,ECU,Ecuador,Quito,USD,US Dollar,$,+593,.ec,es-EC
+EU,Europe,EE,EST,Estonia,Tallinn,EUR,Euro,€,+372,.ee,"et,ru"
+AF,Africa,EG,EGY,Egypt,Cairo,EGP,Egyptian Pound,E£,+20,.eg,"ar-EG,en,fr"
+AF,Africa,EH,ESH,Western Sahara,El-Aaiun,MAD,Moroccan Dirham,MAD,+212,.eh,"ar,mey"
+AF,Africa,ER,ERI,Eritrea,Asmara,ERN,Eritrean Nakfa,Nfk,+291,.er,"aa-ER,ar,tig,kun,ti-ER"
+EU,Europe,ES,ESP,Spain,Madrid,EUR,Euro,€,+34,.es,"es-ES,ca,gl,eu,oc"
+AF,Africa,ET,ETH,Ethiopia,Addis Ababa,ETB,Ethiopian Birr,Br,+251,.et,"am,en-ET,om-ET,ti-ET,so-ET,sid"
+EU,Europe,FI,FIN,Finland,Helsinki,EUR,Euro,€,+358,.fi,"fi-FI,sv-FI,smn"
+OC,Oceania,FJ,FJI,Fiji,Suva,FJD,Fiji Dollar,FJ$,+679,.fj,"en-FJ,fj"
+SA,South America,FK,FLK,Falkland Islands,Stanley,FKP,Falkland Islands Pound,£,+500,.fk,en-FK
+OC,Oceania,FM,FSM,Micronesia,Palikir,USD,US Dollar,$,+691,.fm,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg"
+EU,Europe,FO,FRO,Faroe Islands,Torshavn,DKK,Danish Krone,Kr.,+298,.fo,"fo,da-FO"
+EU,Europe,FR,FRA,France,Paris,EUR,Euro,€,+33,.fr,"fr-FR,frp,br,co,ca,eu,oc"
+AF,Africa,GA,GAB,Gabon,Libreville,XAF,Central African CFA franc,FCFA,+241,.ga,fr-GA
+EU,Europe,GB,GBR,United Kingdom,London,GBP,Pound Sterling,£,+44,.uk,"en-GB,cy-GB,gd"
+NA,North America,GD,GRD,Grenada,St. George's,XCD,East Caribbean Dollar,$,+1,.gd,en-GD
+AS,Asia,GE,GEO,Georgia,Tbilisi,GEL,Lari,ლ,+995,.ge,"ka,ru,hy,az"
+SA,South America,GF,GUF,French Guiana,Cayenne,EUR,Euro,€,+594,.gf,fr-GF
+EU,Europe,GG,GGY,Guernsey,St. Peter Port,GBP,Pound Sterling,£,+44,.gg,"en,fr"
+AF,Africa,GH,GHA,Ghana,Accra,GHS,Ghanaian Cedi,GH₵,+233,.gh,"en-GH,ak,ee,tw"
+EU,Europe,GI,GIB,Gibraltar,Gibraltar,GIP,Gibraltar Pound,£,+350,.gi,"en-GI,es,it,pt"
+NA,North America,GL,GRL,Greenland,Nuuk,DKK,Danish Krone,Kr.,+299,.gl,"kl,da-GL,en"
+AF,Africa,GM,GMB,Gambia,Banjul,GMD,Gambian Dalasi,D,+220,.gm,"en-GM,mnk,wof,wo,ff"
+AF,Africa,GN,GIN,Guinea,Conakry,GNF,Guinean Franc,FG,+224,.gn,fr-GN
+NA,North America,GP,GLP,Guadeloupe,Basse-Terre,EUR,Euro,€,+590,.gp,fr-GP
+AF,Africa,GQ,GNQ,Equatorial Guinea,Malabo,XAF,Central African CFA franc,FCFA,+240,.gq,"es-GQ,fr"
+EU,Europe,GR,GRC,Greece,Athens,EUR,Euro,€,+30,.gr,"el-GR,en,fr"
+AN,Antarctica,GS,SGS,South Georgia and the South Sandwich Islands,Grytviken,GBP,Pound Sterling,£,,.gs,en
+NA,North America,GT,GTM,Guatemala,Guatemala City,GTQ,Guatemalan Quetzal,Q,+502,.gt,es-GT
+OC,Oceania,GU,GUM,Guam,Hagatna,USD,US Dollar,$,+1,.gu,"en-GU,ch-GU"
+AF,Africa,GW,GNB,Guinea-Bissau,Bissau,XOF,CFA Franc BCEAO,CFA,+245,.gw,"pt-GW,pov"
+SA,South America,GY,GUY,Guyana,Georgetown,GYD,Guyana Dollar,G$,+592,.gy,en-GY
+AS,Asia,HK,HKG,Hong Kong,Hong Kong,HKD,Hong Kong Dollar,HK$,+852,.hk,"zh-HK,yue,zh,en"
+AN,Antarctica,HM,HMD,Heard Island and McDonald Islands,,AUD,Australian Dollar,A$,,.hm,
+NA,North America,HN,HND,Honduras,Tegucigalpa,HNL,Honduran Lempira,L,+504,.hn,es-HN
+EU,Europe,HR,HRV,Croatia,Zagreb,HRK,Croatian Kuna,kn,+385,.hr,"hr-HR,sr"
+NA,North America,HT,HTI,Haiti,Port-au-Prince,HTG,Haitian Gourde,G,+509,.ht,"ht,fr-HT"
+EU,Europe,HU,HUN,Hungary,Budapest,HUF,Forint,Ft,+36,.hu,hu-HU
+AS,Asia,ID,IDN,Indonesia,Jakarta,IDR,Indonesian Rupiah,Rp,+62,.id,"id,en,nl,jv"
+EU,Europe,IE,IRL,Ireland,Dublin,EUR,Euro,€,+353,.ie,"en-IE,ga-IE"
+AS,Asia,IL,ISR,Israel,Jerusalem,ILS,New Israeli Sheqel,₪,+972,.il,"he,ar-IL,en-IL,"
+EU,Europe,IM,IMN,Isle of Man,Douglas,GBP,Pound Sterling,£,+44,.im,"en,gv"
+AS,Asia,IN,IND,India,New Delhi,INR,Indian Rupee,₹,+91,.in,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
+AS,Asia,IO,IOT,British Indian Ocean Territory,Diego Garcia,USD,US Dollar,$,+246,.io,en-IO
+AS,Asia,IQ,IRQ,Iraq,Baghdad,IQD,Iraqi Dinar,ع.د,+964,.iq,"ar-IQ,ku,hy"
+AS,Asia,IR,IRN,Iran,Tehran,IRR,Iranian Rial,﷼,+98,.ir,"fa-IR,ku"
+EU,Europe,IS,ISL,Iceland,Reykjavik,ISK,Iceland Krona,kr,+354,.is,"is,en,de,da,sv,no"
+EU,Europe,IT,ITA,Italy,Rome,EUR,Euro,€,+39,.it,"it-IT,de-IT,fr-IT,sc,ca,co,sl"
+EU,Europe,JE,JEY,Jersey,Saint Helier,GBP,Pound Sterling,£,+44,.je,"en,pt"
+NA,North America,JM,JAM,Jamaica,Kingston,JMD,Jamaican Dollar,J$,+1,.jm,en-JM
+AS,Asia,JO,JOR,Jordan,Amman,JOD,Jordanian Dinar,د.ا,+962,.jo,"ar-JO,en"
+AS,Asia,JP,JPN,Japan,Tokyo,JPY,Yen,¥,+81,.jp,ja
+AF,Africa,KE,KEN,Kenya,Nairobi,KES,Kenyan Shilling,Ksh,+254,.ke,"en-KE,sw-KE"
+AS,Asia,KG,KGZ,Kyrgyzstan,Bishkek,KGS,Kyrgyzstani Som,лв,+996,.kg,"ky,uz,ru"
+AS,Asia,KH,KHM,Cambodia,Phnom Penh,KHR,Riel,៛,+855,.kh,"km,fr,en"
+OC,Oceania,KI,KIR,Kiribati,Tarawa,AUD,Australian Dollar,A$,+686,.ki,"en-KI,gil"
+AF,Africa,KM,COM,Comoros,Moroni,KMF,Comorian Franc,CF,+269,.km,"ar,fr-KM"
+NA,North America,KN,KNA,Saint Kitts and Nevis,Basseterre,XCD,East Caribbean Dollar,$,+1,.kn,en-KN
+AS,Asia,KP,PRK,North Korea,Pyongyang,KPW,North Korean Won,₩,+850,.kp,ko-KP
+AS,Asia,KR,KOR,South Korea,Seoul,KRW,Won,₩,+82,.kr,"ko-KR,en"
+EU,Europe,XK,XKX,Republic of Kosovo,Pristina,EUR,Euro,€,,null,"sq,sr"
+AS,Asia,KW,KWT,Kuwait,Kuwait City,KWD,Kuwaiti Dinar,KD,+965,.kw,"ar-KW,en"
+NA,North America,KY,CYM,Cayman Islands,George Town,KYD,Cayman Islands Dollar,$,+1,.ky,en-KY
+AS,Asia,KZ,KAZ,Kazakhstan,Nur-Sultan,KZT,Tenge,₸,+7,.kz,"kk,ru"
+AS,Asia,LA,LAO,Laos,Vientiane,LAK,Lao Kip,₭,+856,.la,"lo,fr,en"
+AS,Asia,LB,LBN,Lebanon,Beirut,LBP,Lebanese Pound,ل.ل.‎,+961,.lb,"ar-LB,fr-LB,en,hy"
+NA,North America,LC,LCA,Saint Lucia,Castries,XCD,East Caribbean Dollar,$,+1,.lc,en-LC
+EU,Europe,LI,LIE,Liechtenstein,Vaduz,CHF,Swiss Franc,CHF,+423,.li,de-LI
+AS,Asia,LK,LKA,Sri Lanka,Colombo,LKR,Sri Lanka Rupee,₨,+94,.lk,"si,ta,en"
+AF,Africa,LR,LBR,Liberia,Monrovia,LRD,Liberian Dollar,L$,+231,.lr,en-LR
+AF,Africa,LS,LSO,Lesotho,Maseru,LSL,Lesotho Loti,L,+266,.ls,"en-LS,st,zu,xh"
+EU,Europe,LT,LTU,Lithuania,Vilnius,EUR,Euro,€,+370,.lt,"lt,ru,pl"
+EU,Europe,LU,LUX,Luxembourg,Luxembourg,EUR,Euro,€,+352,.lu,"lb,de-LU,fr-LU"
+EU,Europe,LV,LVA,Latvia,Riga,EUR,Euro,€,+371,.lv,"lv,ru,lt"
+AF,Africa,LY,LBY,Libya,Tripoli,LYD,Libyan Dinar,LD,+218,.ly,"ar-LY,it,en"
+AF,Africa,MA,MAR,Morocco,Rabat,MAD,Moroccan Dirham,MAD,+212,.ma,"ar-MA,ber,fr"
+EU,Europe,MC,MCO,Monaco,Monaco,EUR,Euro,€,+377,.mc,"fr-MC,en,it"
+EU,Europe,MD,MDA,Moldova,Chisinau,MDL,Moldovan Leu,L,+373,.md,"ro,ru,gag,tr"
+EU,Europe,ME,MNE,Montenegro,Podgorica,EUR,Euro,€,+382,.me,"sr,hu,bs,sq,hr,rom"
+NA,North America,MF,MAF,Saint Martin,Marigot,EUR,Euro,€,+590,.gp,fr
+AF,Africa,MG,MDG,Madagascar,Antananarivo,MGA,Malagasy Ariary,Ar,+261,.mg,"fr-MG,mg"
+OC,Oceania,MH,MHL,Marshall Islands,Majuro,USD,US Dollar,$,+692,.mh,"mh,en-MH"
+EU,Europe,MK,MKD,Macedonia,Skopje,MKD,Macedonian Denar,ден,+389,.mk,"mk,sq,tr,rmm,sr"
+AF,Africa,ML,MLI,Mali,Bamako,XOF,CFA Franc BCEAO,CFA,+223,.ml,"fr-ML,bm"
+AS,Asia,MM,MMR,Myanmar,Nay Pyi Taw,MMK,Burmese Kyat,K,+95,.mm,my
+AS,Asia,MN,MNG,Mongolia,Ulan Bator,MNT,Mongolian Tögrög,₮,+976,.mn,"mn,ru"
+AS,Asia,MO,MAC,Macao,Macao,MOP,Macau Pataca,MOP$,+853,.mo,"zh,zh-MO,pt"
+OC,Oceania,MP,MNP,Northern Mariana Islands,Saipan,USD,US Dollar,$,+1,.mp,"fil,tl,zh,ch-MP,en-MP"
+NA,North America,MQ,MTQ,Martinique,Fort-de-France,EUR,Euro,€,+596,.mq,fr-MQ
+AF,Africa,MR,MRT,Mauritania,Nouakchott,MRO,Mauritanian Ouguiya,UM,+222,.mr,"ar-MR,fuc,snk,fr,mey,wo"
+NA,North America,MS,MSR,Montserrat,Plymouth,XCD,East Caribbean Dollar,$,+1,.ms,en-MS
+EU,Europe,MT,MLT,Malta,Valletta,EUR,Euro,€,+356,.mt,"mt,en-MT"
+AF,Africa,MU,MUS,Mauritius,Port Louis,MUR,Mauritius Rupee,₨,+230,.mu,"en-MU,bho,fr"
+AS,Asia,MV,MDV,Maldives,Male,MVR,Maldivian Rufiyaa,Rf,+960,.mv,"dv,en"
+AF,Africa,MW,MWI,Malawi,Lilongwe,MWK,Malawi Kwacha,MK,+265,.mw,"ny,yao,tum,swk"
+NA,North America,MX,MEX,Mexico,Mexico City,MXN,Mexican Peso,Mex$,+52,.mx,es-MX
+AS,Asia,MY,MYS,Malaysia,Kuala Lumpur,MYR,Malaysian Ringgit,RM,+60,.my,"ms-MY,en,zh,ta,te,ml,pa,th"
+AF,Africa,MZ,MOZ,Mozambique,Maputo,MZN,Mozambique Metical,MT,+258,.mz,"pt-MZ,vmw"
+AF,Africa,NA,NAM,Namibia,Windhoek,NAD,Namibia Dollar,N$,+264,.na,"en-NA,af,de,hz,naq"
+OC,Oceania,NC,NCL,New Caledonia,Noumea,XPF,CFP Franc,₣,+687,.nc,fr-NC
+AF,Africa,NE,NER,Niger,Niamey,XOF,CFA Franc BCEAO,CFA,+227,.ne,"fr-NE,ha,kr,dje"
+OC,Oceania,NF,NFK,Norfolk Island,Kingston,AUD,Australian Dollar,A$,+672,.nf,en-NF
+AF,Africa,NG,NGA,Nigeria,Abuja,NGN,Nigerian Naira,₦,+234,.ng,"en-NG,ha,yo,ig,ff"
+NA,North America,NI,NIC,Nicaragua,Managua,NIO,Nicaraguan Córdoba,C$,+505,.ni,"es-NI,en"
+EU,Europe,NL,NLD,Netherlands,Amsterdam,EUR,Euro,€,+31,.nl,"nl-NL,fy-NL"
+EU,Europe,NO,NOR,Norway,Oslo,NOK,Norwegian Krone,kr,+47,.no,"no,nb,nn,se,fi"
+AS,Asia,NP,NPL,Nepal,Kathmandu,NPR,Nepalese Rupee,₨,+977,.np,"ne,en"
+OC,Oceania,NR,NRU,Nauru,Yaren,AUD,Australian Dollar,A$,+674,.nr,"na,en-NR"
+OC,Oceania,NU,NIU,Niue,Alofi,NZD,New Zealand Dollar,$,+683,.nu,"niu,en-NU"
+OC,Oceania,NZ,NZL,New Zealand,Wellington,NZD,New Zealand Dollar,$,+64,.nz,"en-NZ,mi"
+AS,Asia,OM,OMN,Oman,Muscat,OMR,Rial Omani,﷼,+968,.om,"ar-OM,en,bal,ur"
+NA,North America,PA,PAN,Panama,Panama City,PAB,Balboa,B/.,+507,.pa,"es-PA,en"
+SA,South America,PE,PER,Peru,Lima,PEN,Sol,S/,+51,.pe,"es-PE,qu,ay"
+OC,Oceania,PF,PYF,French Polynesia,Papeete,XPF,CFP Franc,₣,+689,.pf,"fr-PF,ty"
+OC,Oceania,PG,PNG,Papua New Guinea,Port Moresby,PGK,Papua New Guinean Kina,K,+675,.pg,"en-PG,ho,meu,tpi"
+AS,Asia,PH,PHL,Philippines,Manila,PHP,Philippine Piso,₱,+63,.ph,"tl,en-PH,fil"
+AS,Asia,PK,PAK,Pakistan,Islamabad,PKR,Pakistan Rupee,₨,+92,.pk,"ur-PK,en-PK,pa,sd,ps,brh"
+EU,Europe,PL,POL,Poland,Warsaw,PLN,Zloty,zł,+48,.pl,pl
+NA,North America,PM,SPM,Saint Pierre and Miquelon,Saint-Pierre,EUR,Euro,€,+508,.pm,fr-PM
+OC,Oceania,PN,PCN,Pitcairn,Adamstown,NZD,New Zealand Dollar,$,+870,.pn,en-PN
+NA,North America,PR,PRI,Puerto Rico,San Juan,USD,US Dollar,$,+1,.pr,"en-PR,es-PR"
+AS,Asia,PS,PSE,State of Palestine,Ramallah,ILS,New Israeli Sheqel,₪,+970,.ps,ar-PS
+EU,Europe,PT,PRT,Portugal,Lisbon,EUR,Euro,€,+351,.pt,"pt-PT,mwl"
+OC,Oceania,PW,PLW,Palau,Ngerulmud,USD,US Dollar,$,+680,.pw,"pau,sov,en-PW,tox,ja,fil,zh"
+SA,South America,PY,PRY,Paraguay,Asuncion,PYG,Paraguayan Guaraní,₲,+595,.py,"es-PY,gn"
+AS,Asia,QA,QAT,Qatar,Doha,QAR,Qatari Rial,QR,+974,.qa,"ar-QA,es"
+AF,Africa,RE,REU,Reunion,Saint-Denis,EUR,Euro,€,+262,.re,fr-RE
+EU,Europe,RO,ROU,Romania,Bucharest,RON,Romanian Leu,lei,+40,.ro,"ro,hu,rom"
+EU,Europe,RS,SRB,Serbia,Belgrade,RSD,Serbian Dinar,din,+381,.rs,"sr,hu,bs,rom"
+EU,Europe,RU,RUS,Russia,Moscow,RUB,Russian Ruble,₽,+7,.ru,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,av,sah,nog"
+AF,Africa,RW,RWA,Rwanda,Kigali,RWF,Rwanda Franc,R₣,+250,.rw,"rw,en-RW,fr-RW,sw"
+AS,Asia,SA,SAU,Saudi Arabia,Riyadh,SAR,Saudi Riyal,﷼,+966,.sa,ar-SA
+OC,Oceania,SB,SLB,Solomon Islands,Honiara,SBD,Solomon Islands Dollar,Si$,+677,.sb,"en-SB,tpi"
+AF,Africa,SC,SYC,Seychelles,Victoria,SCR,Seychelles Rupee,₨,+248,.sc,"en-SC,fr-SC"
+AF,Africa,SD,SDN,Sudan,Khartoum,SDG,Sudanese Pound,ج.س.,+249,.sd,"ar-SD,en,fia"
+AF,Africa,SS,SSD,South Sudan,Juba,SSP,South Sudanese Pound,£,+211,null,en
+EU,Europe,SE,SWE,Sweden,Stockholm,SEK,Swedish Krona,kr,+46,.se,"sv-SE,se,sma,fi-SE"
+AS,Asia,SG,SGP,Singapore,Singapore,SGD,Singapore Dollar,S$,+65,.sg,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
+AF,Africa,SH,SHN,Saint Helena,Jamestown,SHP,Saint Helena Pound,£,+290,.sh,en-SH
+EU,Europe,SI,SVN,Slovenia,Ljubljana,EUR,Euro,€,+386,.si,"sl,sh"
+EU,Europe,SJ,SJM,Svalbard and Jan Mayen,Longyearbyen,NOK,Norwegian Krone,kr,+47,.sj,"no,ru"
+EU,Europe,SK,SVK,Slovakia,Bratislava,EUR,Euro,€,+421,.sk,"sk,hu"
+AF,Africa,SL,SLE,Sierra Leone,Freetown,SLL,Sierra Leonean Leone,Le,+232,.sl,"en-SL,men,tem"
+EU,Europe,SM,SMR,San Marino,San Marino,EUR,Euro,€,+378,.sm,it-SM
+AF,Africa,SN,SEN,Senegal,Dakar,XOF,CFA Franc BCEAO,CFA,+221,.sn,"fr-SN,wo,fuc,mnk"
+AF,Africa,SO,SOM,Somalia,Mogadishu,SOS,Somali Shilling,S,+252,.so,"so-SO,ar-SO,it,en-SO"
+SA,South America,SR,SUR,Suriname,Paramaribo,SRD,Surinamese Dollar,$,+597,.sr,"nl-SR,en,srn,hns,jv"
+AF,Africa,ST,STP,Sao Tome and Principe,Sao Tome,STD,São Tomé and Príncipe Dobra,Db,+239,.st,pt-ST
+NA,North America,SV,SLV,El Salvador,San Salvador,USD,US Dollar,$,+503,.sv,es-SV
+NA,North America,SX,SXM,Sint Maarten,Philipsburg,ANG,Netherlands Antillean Guilder,ƒ,+599,.sx,"nl,en"
+AS,Asia,SY,SYR,Syria,Damascus,SYP,Syrian Pound,£S,+963,.sy,"ar-SY,ku,hy,arc,fr,en"
+AF,Africa,SZ,SWZ,Eswatini,Mbabane,SZL,Swazi Lilangeni,E,+268,.sz,"en-SZ,ss-SZ"
+NA,North America,TC,TCA,Turks and Caicos Islands,Cockburn Town,USD,US Dollar,$,+1,.tc,en-TC
+AF,Africa,TD,TCD,Chad,N'Djamena,XAF,Central African CFA franc,FCFA,+235,.td,"fr-TD,ar-TD,sre"
+AN,Antarctica,TF,ATF,French Southern Territories,Port-aux-Francais,EUR,Euro,€,,.tf,fr
+AF,Africa,TG,TGO,Togo,Lome,XOF,CFA Franc BCEAO,CFA,+228,.tg,"fr-TG,ee,hna,kbp,dag,ha"
+AS,Asia,TH,THA,Thailand,Bangkok,THB,Baht,฿,+66,.th,"th,en"
+AS,Asia,TJ,TJK,Tajikistan,Dushanbe,TJS,Tajikistani Somoni,ЅM,+992,.tj,"tg,ru"
+OC,Oceania,TK,TKL,Tokelau,Nukunonu,NZD,New Zealand Dollar,$,+690,.tk,"tkl,en-TK"
+OC,Oceania,TL,TLS,East Timor,Dili,USD,US Dollar,$,+670,.tl,"tet,pt-TL,id,en"
+AS,Asia,TM,TKM,Turkmenistan,Ashgabat,TMT,Turkmenistan Manat,T,+993,.tm,"tk,ru,uz"
+AF,Africa,TN,TUN,Tunisia,Tunis,TND,Tunisian Dinar,DT,+216,.tn,"ar-TN,fr"
+OC,Oceania,TO,TON,Tonga,Nuku'alofa,TOP,Tongan Paʻanga,T$,+676,.to,"to,en-TO"
+AS,Asia,TR,TUR,Turkey,Ankara,TRY,Turkish Lira,₺,+90,.tr,"tr-TR,ku,diq,az,av"
+NA,North America,TT,TTO,Trinidad and Tobago,Port of Spain,TTD,Trinidad and Tobago Dollar,TT$,+1,.tt,"en-TT,hns,fr,es,zh"
+OC,Oceania,TV,TUV,Tuvalu,Funafuti,AUD,Australian Dollar,A$,+688,.tv,"tvl,en,sm,gil"
+AS,Asia,TW,TWN,Taiwan,Taipei,TWD,New Taiwan Dollar,NT$,+886,.tw,"zh-TW,zh,nan,hak"
+AF,Africa,TZ,TZA,Tanzania,Dodoma,TZS,Tanzanian Shilling,TSh,+255,.tz,"sw-TZ,en,ar"
+EU,Europe,UA,UKR,Ukraine,Kyiv,UAH,Hryvnia,₴,+380,.ua,"uk,ru-UA,rom,pl,hu"
+AF,Africa,UG,UGA,Uganda,Kampala,UGX,Uganda Shilling,USh,+256,.ug,"en-UG,lg,sw,ar"
+OC,Oceania,UM,UMI,United States Minor Outlying Islands,,USD,US Dollar,$,+1,.um,en-UM
+NA,North America,US,USA,United States,"Washington, D.C.",USD,US Dollar,$,+1,.us,"en-US,es-US,haw,fr"
+SA,South America,UY,URY,Uruguay,Montevideo,UYU,Peso Uruguayo,$U,+598,.uy,es-UY
+AS,Asia,UZ,UZB,Uzbekistan,Tashkent,UZS,Uzbekistan Sum,лв,+998,.uz,"uz,ru,tg"
+EU,Europe,VA,VAT,Vatican,Vatican City,EUR,Euro,€,+379,.va,"la,it,fr"
+NA,North America,VC,VCT,Saint Vincent and the Grenadines,Kingstown,XCD,East Caribbean Dollar,$,+1,.vc,"en-VC,fr"
+SA,South America,VE,VEN,Venezuela,Caracas,VES,Venezuelan Bolívar,Bs.S.,+58,.ve,es-VE
+NA,North America,VG,VGB,British Virgin Islands,Road Town,USD,US Dollar,$,+1,.vg,en-VG
+NA,North America,VI,VIR,U.S. Virgin Islands,Charlotte Amalie,USD,US Dollar,$,+1,.vi,en-VI
+AS,Asia,VN,VNM,Vietnam,Hanoi,VND,Vietnamese Dong,₫,+84,.vn,"vi,en,fr,zh,km"
+OC,Oceania,VU,VUT,Vanuatu,Port Vila,VUV,Vanuatu Vatu,VT,+678,.vu,"bi,en-VU,fr-VU"
+OC,Oceania,WF,WLF,Wallis and Futuna,Mata Utu,XPF,CFP Franc,₣,+681,.wf,"wls,fud,fr-WF"
+OC,Oceania,WS,WSM,Samoa,Apia,WST,Samoan Tālā,WS$,+685,.ws,"sm,en-WS"
+AS,Asia,YE,YEM,Yemen,Sanaa,YER,Yemeni Rial,﷼,+967,.ye,ar-YE
+AF,Africa,YT,MYT,Mayotte,Mamoudzou,EUR,Euro,€,+262,.yt,fr-YT
+AF,Africa,ZA,ZAF,South Africa,Pretoria,ZAR,Rand,R,+27,.za,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
+AF,Africa,ZM,ZMB,Zambia,Lusaka,ZMW,Zambian Kwacha,ZK,+260,.zm,"en-ZM,bem,loz,lun,lue,ny,toi"
+AF,Africa,ZW,ZWE,Zimbabwe,Harare,ZWL,Zimbabwe Dollar,Z$,+263,.zw,"en-ZW,sn,nr,nd"
+EU,Europe,CS,SCG,Serbia and Montenegro,Belgrade,RSD,Serbian Dinar,din,+381,.cs,"cu,hu,sq,sr"
+NA,North America,AN,ANT,Netherlands Antilles,Willemstad,ANG,Netherlands Antillean Guilder,ƒ,+599,.an,"nl-AN,en,es"
+ZZ,ZZ,ZZ,ZZZ,ZZ,ZZ,,,,,null,

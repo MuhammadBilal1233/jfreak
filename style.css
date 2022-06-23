@@ -1,0 +1,791 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(212, 119, 42);
+}
+
+span {
+    font-size: 0.9rem;
+    color: #757373;
+}
+
+h6 {
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5vw 3vw;
+    box-shadow: 0.2rem 0.2rem 0.8rem rgba(66, 114, 202, 0.15);
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(30, 48, 129);
+    z-index: 999;
+}
+
+nav img {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav .navigation ul li {
+    list-style: none;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(224, 186, 13);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: rgb(19, 16, 9);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(19, 3, 77);
+    /* margin-top: 200px; */
+    
+  }
+
+  .topnav.responsive{
+    margin-top: 200px;
+    transition: .4s ease;
+  }
+  
+
+  .zero{
+    width: 0%;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+
+#home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+        url("images/background.jpeg.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+    margin: auto;
+}
+
+
+#home h1 {
+    color: rgb(224, 186, 13);
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#home h3 {
+    width: 70%;
+    color: rgb(212, 119, 42);
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    justify-content: center;
+}
+
+#home .btn {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: aqua;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+#home a.blue {
+    color: rgb(245, 245, 248);
+    background-color: rgb(21, 21, 100);
+}
+
+#home a.blue:hover {
+    color: rgb(49, 49, 202);
+    background-color: rgb(245, 245, 248);
+}
+
+#home a.yellow {
+    color: rgb(33, 33, 201);
+    background-color: yellow;
+}
+
+#home a.yellow:hover {
+    color: rgba(48, 27, 167, 0.952);
+    background-color: rgb(245, 245, 248);
+}
+
+
+#features {
+    margin: 1rem;
+    padding: 5vm 8vm 5vm 8vm;
+    text-align: center;
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    align-content: center;
+}
+
+#features .fea-box {
+    background: rgb(139, 182, 160);
+    text-align: center;
+    width: 100%;
+    height: 130%;
+}
+
+/* #features .fea-box i{
+    margin-top: 2rem;
+} */
+
+#features .fea-box i {
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
+    color: rgb(44, 44, 80);
+}
+
+#features .fea-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(44, 44, 80);
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(44, 44, 80);
+}
+
+#course {
+    margin: 3rem;
+    padding: 6vm 6vm 0 6vm;
+    text-align: center;
+}
+
+#course p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+
+#course .course-box {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 2rem;
+    width: 70%;
+}
+
+#course .courses {
+    text-align: center;
+    background: #e9ebe4;
+    position: relative;
+
+}
+
+#course .courses img {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+#course .courses .details {
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+#course .courses .details a {
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+#course .courses .details h6 {
+    color: rgb(224, 186, 13);
+    font-size: 1.2rem;
+}
+
+
+
+#registration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("images/9.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#registration .reminder {
+    color: rgb(5, 17, 12);
+}
+
+#registration .reminder h1 {
+    color: rgb(5, 17, 12);
+}
+
+#registration .reminder .time {
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .reminder .time .date {
+    text-align: center;
+    padding: 13px 33px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 2px solid rgb(10, 3, 17);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#registration .form {
+    background-color: #cac9c9;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    box-shadow: 0 8ox 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#registration .form input {
+    margin: 1rem 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(32, 59, 180);
+    outline: none;
+}
+
+#registration .form .btn {
+    margin-top: 20px;
+}
+
+#registration .form a.yellow {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 1rem 3rem;
+    background-color: aqua;
+    border-radius: 1rem;
+    color: rgb(33, 33, 201);
+    background-color: yellow;
+}
+
+#registration .form a.yellow:hover {
+    color: rgba(48, 27, 167, 0.952);
+    background-color: rgb(245, 245, 248);
+}
+
+#expert {
+    padding: 2vw 2vw 0 2vw;
+    text-align: center;
+}
+
+#expert .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#expert .expert-box .profile {
+    background: #fafaf1;
+    padding: 10px 10px;
+}
+
+#expert .expert-box .profile img {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-links {
+    margin-top: 20px;
+    gap: 1.5rem;
+}
+
+.pro-links i {
+    padding: 10px 13px;
+    border: 1px solid rgb(32, 59, 180);
+    cursor: pointer;
+}
+
+.pro-links i:hover {
+    color: rgba(212, 208, 231, 0.952);
+    background-color: rgb(14, 14, 126);
+    border: 1px solid rgb(32, 59, 180);
+}
+
+#footer {
+    padding: 8vw;
+    background-color: rgb(30, 48, 129);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#footer .footer-col {
+    padding: 40px;
+}
+
+#footer h3 {
+    color: rgb(212, 119, 42);
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+#footer li {
+    list-style: none;
+    color: rgb(212, 119, 42);
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#footer li:hover {
+    color: #fafaf1;
+}
+
+#footer p {
+    color: rgb(212, 119, 42);
+}
+
+#footer .subscribe {
+    margin-top: 20px;
+}
+
+#footer input {
+    width: 12rem;
+    height: 3rem;
+    padding: 15px 12px;
+    background: rgb(241, 245, 243);
+    border: 2px solid rgb(201, 106, 28);
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(25, 39, 167);
+    text-align: center;
+}
+
+#footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(212, 119, 42);
+    font-weight: 600;
+    border-radius: 0.6rem;
+    color: rgb(18, 36, 194);
+}
+
+#footer .subscribe a:hover {
+    color: rgba(47, 11, 228, 0.952);
+    background-color: rgb(220, 223, 207);
+    border: 1px solid rgb(32, 59, 180);
+}
+
+
+
+@media(max-width:925px) {
+
+    #registration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("images/9.jpg");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+}
+
+@media(max-width:525px) {
+
+    #registration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("images/9.jpg");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    #registration .reminder .time {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    #footer input {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media(max-width:340px) {
+    #home .btn {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+/* IPGeoLocation CSS */
+
+#ipgeo {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+        url("images/background.jpeg.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+    margin: auto;
+}
+
+#ipgeo h1 {
+    color: rgb(224, 186, 13);
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#ipgeo h3 {
+    width: 70%;
+    color: rgb(212, 119, 42);
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    justify-content: center;
+}
+
+#ipgeo h4 {
+    color: rgb(224, 186, 13);
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    justify-content: center;
+}
+
+#ipgeo .btn {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#ipgeo .btn input {
+    margin: auto;
+    width: 15rem;
+    height: 3.3rem;
+    padding: 1rem 0.9rem;
+    background: rgb(241, 245, 243);
+    border: 2px solid rgb(201, 106, 28);
+    border-radius: 1.4rem;
+    outline: none;
+    font-size: 1.5rem;
+    color: rgb(25, 39, 167);
+    text-align: center;
+}
+
+#ipgeo .btn .ipgeobtn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#ipgeo a {
+    margin: auto;
+    width: 10rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    background-color: rgb(224, 186, 13);
+    font-weight: 600;
+    border-radius: 1rem;
+
+}
+
+#ipgeo a.yellow {
+    color: rgb(7, 7, 92);
+    background-color: rgb(212, 119, 42);
+}
+
+#ipgeo a.yellow:hover {
+    color: rgb(49, 49, 202);
+    background-color: rgb(245, 245, 248);
+}
+
+
+table,
+th,
+td {
+    border-bottom: 1px solid #ddd;
+    border: 1px solid rgb(190, 192, 92);
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    width: 11rem;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    width: 22rem;
+    margin-bottom: 2rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+#tabledata {
+    display: none;
+}
+
+#tabledata2 {
+    display: none;
+}
+
+#firstheading1,
+#secondheading1 {
+    margin: 1rem 0rem;
+    text-align: center;
+    color: rgb(201, 106, 28);
+
+}
+
+#firstheading,
+#secondheading {
+    display: none;
+}
+
+/* currency Freaks */
+#graph {
+    display: none;
+    background-color: rgb(251, 236, 217);
+    height: 0;
+    margin-top: 10px;
+}
+
+#graph1 {
+    background-color: green;
+}
+
+.graph-s {
+    display: flex;
+    height: 70vh;
+}
+
+.jsgraph {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+@media screen and (min-width:1103px){
+
+.jsgraph {
+    width: 60%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+
+}
+#graphplotting {
+    display: none;
+}
+
+.graphbutton {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+@media(max-width:689px) {
+    .graphbutton {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
